@@ -1,3 +1,21 @@
+Command Line Interface
+---------------------
+Useful Command Lines
+-------------------------
+pwd =>ရောက်တဲံ့ folder/file ကြည့်နည်း။
+ls =>အခုရောက်နေတဲ့ Folder ထဲမှာ ရှိတဲ့ အရာကိုပြပေး။
+clear =>file clear 
+cd .. =>လက်ရှိရောက်နေတဲ့ဖိုင် အရှေ့(အပေါ်)ကို သွားချင်တဲ့ခါ။
+cd = Change Directory
+mkdir Foldername => create folder
+mv fromFolder/filename.txt To Folder => Folder တစ်ခုမှ တခြားFolder သို့ပြောင်း၊
+mv Folder/oldfilename.txt Folder/NewFilename.txt =>File Rename
+rm Folder/filename.txt  => Remove/Delete file
+rm -r FolderName            => Remove/Delete folder
+touch NewFolder/world.txt =>Create new file
+
+
+
 -web hosting for git respository
 -tracking & managing changes in computer files
 -collaborate work between different users
