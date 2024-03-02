@@ -13,6 +13,25 @@ mv Folder/oldfilename.txt Folder/NewFilename.txt =>File Rename
 rm Folder/filename.txt  => Remove/Delete file
 rm -r FolderName            => Remove/Delete folder
 touch NewFolder/world.txt =>Create new file
+----------------------------------------------------------------------------
+Text Editor
+-------------
+vim 
+insert mode = >press i
+normal mode = >press Esc key
+press k     = > go to top in normal mode
+press 2 k   = > 2 step go to top in normal mode
+press l     = > go to right in normal mode
+press h     = > go to left in normal mode
+press $     = > go to the last text in normal mode
+press 0     = > go to the first text in normal mode
+press dG    = > delete all text in normal mode
+press x     = > delete text selected in normal mode
+press :     = > go to command mode
+wq          = > to save file
+exit vim    = > go to command mode(:) and press q(if not save,press q!)
+vim website/nano
+vim.org
 
 
 
