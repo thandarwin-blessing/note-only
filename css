@@ -34,10 +34,15 @@ p = selector
 
  <div> tag => အုပ်စုဖွဲ့လိုတဲ့ခါ သုံး
  Display Property
- Block Element  =>  1 line မှာ တစ်ခုပဲ ရေးလို့ရ၊
- Inline Element =>  တစ်ခုပြီးတစ်ခု 1 line ထဲမှာ ရေးလို့ရ၊
- <div> => Block Element 
- <span> => Inline Element
+ Block Element  =>  1 line မှာ တစ်ခုပဲ ရေးလို့ရ၊width/height မသတ်မှတ်ထားရင် အပြည့်ယူ၊သူ့နောက်မှာ ကပ်ပြီးလိုက်တာမရှိ(html/css) တစ်ကြောင်းစီဖြစ်သွားမယ်။
+ Inline Element =>  တစ်ခုပြီးတစ်ခု 1 line ထဲမှာ ရေးလို့ရ။
+ 
+ Block Element 
+ -----------------
+<div>,<h1> - <h6>,<p>,<form>,<header>,<footer><section>,ul,ol,li,table,fieldset,figure,figcaption
+Inline Element
+--------------
+span,a,button,input,label,select,teextarea,b,i,img,br,small,em...
 
 Content - The content of the box, where text and images appear
 Padding - Clears an area around the content. The padding is transparent
@@ -91,4 +96,75 @@ width	      -> Sets the width of an element
 Text Color
 ------------
 The color property is used to set the color of the text.
+
+Text Decoration Properties
+---------------------------------
+text-decoration-line       = >add a decoration line to text.
+text-decoration-color      = >the color of the decoration line.
+text-decoration-style      = >the style of the decoration line.
+text-decoration-thickness  = >the thickness of the decoration line.
+text-decoration            = >is a shorthand property for:
+
+Text Transformation
+------------------------
+text-transform property = >uppercase and lowercase letters in a text.
+text-transform:uppercase; = > THIS IS TRANSFORM TO uppercase
+text-transform:lowercase; = > this is transform to lowercase
+text-transform:capitalize; = > This Is Transform To Capitalize
+
+Text Spacing properties
+-------------
+text-indent       = >the indentation of the first line of a text:
+letter-spacing    = >the space between the characters in a text.
+line-height       = >the space between lines:
+word-spacing      = >the space between the words in a text.
+white-space       = >specifies how white-space inside an element is handled.
+
+Text Shadow
+-----------
+text-shadow: 2px 2px;
+text-shadow property adds shadow to text.
+
+Styling Links
+--------------------
+a:link - a normal, unvisited link
+a:visited - a link the user has visited
+a:hover - a link when the user mouses over it
+a:active - a link the moment it is clicked
+
+Lists
+-------------------
+Unordered Lists: Ordered Lists:
+list-style-type property  = >specifies the type of list item marker.
+ul.a {
+  list-style-type: circle;
+}
+list-style-image property = >specifies an image as the list item marker:
+ul {
+  list-style-image: url('sqpurple.gif');
+}
+list-style-position property specifies the position of the list-item markers (bullet points).
+ul.a {
+  list-style-position: outside;inside;
+}
+
+The display Property
+----------------------
+display property = > specify how an element is shown on a web page.
+
+The z-index Property
+--------------------
+z-index:-1; //behind th text
+
+The float Property
+------------------
+The float property is used for positioning and formatting content e.g. let an image float left to the text in a container.
+Float propertie's value
+float:left; //The element floats to the left of its container
+float:right; //The element floats to the right of its container.
+float:none; //The element does not float (will be displayed just where it occurs in the text). This is default
+float:inherit; //The element inherits the float value of its parent
+
+list-style-type: none; - Removes the bullets. A navigation bar does not need list markers
+Set margin: 0; and padding: 0; to remove browser default settings
 
