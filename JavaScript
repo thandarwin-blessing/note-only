@@ -1,0 +1,77 @@
+          JavaScript
+        ------------------
+Data and Structure types
+-----------------------
+6 data types that are primities
+1: underfined 
+2: Boolean 
+3: Number
+4: String 
+5: BigInt
+6:Symbol
+
+null : Special primitie types
+object/function : no prmitive but data structure type 
+In JavaScript,Prmitive is data that is not a object and has no method.(primitive ဟာ ထပ်ခွဲလို့မရတော့တဲံ့ data အမျိုးအစား)
+
+Number data type = 1,2,3,4,5....
+String data type = "myanmar", 'Yangon' , `Sittwe`
+Boolean          =  true , false
+
+Variables 
+-----------
+var = to declare a variable,optionally intializing it to a value.
+let = to declare a block-scoped , local variable optionally initializing it to a value.
+const = to declare a block-scoped ; read-only named constant.
+
+let & const difference
+----------------------
+let email ; (value ကို နောက်မှ သတ်မှတ်လို့ရ)
+const email = "gmail"; (value ကို တခါတည်းသတ်မှတ်ပေးရမည်။)
+
+let ကို သုံးပြီး ကြေညာတဲ့ variable ရဲ့ တန်ဖိုးကို ပြောင်းလို့ရ / နောက်ဆုံး update လုပ်တဲ့ တန်ဖိုးကို မှတ်ယူမည်၊၊
+const သုံးပြီး variable ကြေညာတဲ့ value ကို သတ်မှတ်ပေးကိုပေးရမည်၊ value အသစ် သတ်မှတ်လို့မရ၊၊ const သုံးပြီး variable ကြေညာတဲ့ခါ name တူလို့မရ။
+
+Operators
+------------
+Arithmetic Operators
++ Addition
+- Subtraction
+* Muliplication
+/ Division
+% Remainder
+** Exponent (အထပ်တင်ခြင်း)
+
+Increament ++
+Decreament --
+= Assignment
++= Addition Assignment
+-= Subtraction
+*= Mutiplication Assignment
+
+Comparison Operators
+-------------------
+== vs ===
+let num = 5;
+num =='5'; // output true
+num === '5'; // output false
+
+!= vs !==
+let num = 5;
+num !='5'; //output false
+num !=='5'; //output true
+
+> greater than & < less than
+let num1 = 2;
+let num2 = 3;
+num1 > num2; // output false
+num1 < num2; // output true
+
+(>= greater than or eqaul to) & (<= Less than or equal to)
+let num1 = 2;
+let num2 =3;
+num1 >= nnum2; // output false
+num1 <= num2; // output true
+----------------------------------------------------------------------
+
+
